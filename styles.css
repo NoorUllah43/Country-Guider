@@ -1,0 +1,105 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #94C9A9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.containner {
+    width: 40%;
+    min-height: 50vh;
+    height: auto;
+    text-align: center;
+    background-color: #777DA7;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    justify-content: center;
+    align-content: center;
+
+}
+h1 {
+    margin: 20px 0px 30px 0px;
+    color: #C6ECAE;
+}
+.serachBox {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 10px 0px 30px 0px;
+}
+#serachInp {
+    border: none;
+    outline: none;
+    width: 70%;
+    height: 30px;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+    font-size: large;
+    color: rgba(87, 80, 80, 0.822);
+    text-decoration: underline;
+}
+#serachBtn {
+    height: 40px;
+    width: 70px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #C6ECAE;
+}
+.guides {
+    display: none;
+}
+#flag {
+    width: 200px;
+    margin-bottom: 10px;
+}
+#countryName {
+    margin: 10px;
+}
+.detalis {
+    text-align: left;
+
+    
+}
+h3 { 
+    margin: 5px;
+}
+
+@media screen and (max-width: 750px) {
+    .containner {
+        width: 50%;
+    }
+}
+@media screen and (max-width: 680px) {
+    .containner {
+        width: 60%;
+    }
+}
+@media screen and (max-width: 580px) {
+    .containner {
+        width: 80%;
+    }
+}
+@media screen and (max-width: 300px) {
+    .serachBox {
+        flex-wrap: wrap;
+    }
+    #flag {
+        width: 100px;
+    }
+    .containner {
+        width: 90%;
+    }
+}
